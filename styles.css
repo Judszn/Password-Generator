@@ -44,8 +44,8 @@ body {
   background: none;
   border: none;
   outline: none;
-  font-size: 24x;
-  color: rgb(41, 39, 39);
+  font-size: 20px;
+  color: rgb(0, 143, 83);
 }
 
 .display input::placeholder {

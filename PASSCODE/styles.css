@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background: #252323;
+}
+
+.heading {
+  max-width: 100vw;
+  background: #252323;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: aliceblue;
+  margin-left: 30px;
+}
+
+.heading img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.heading button {
+  background: rgb(74, 190, 74);
+  border-radius: 10px;
+  padding: 5px;
+  width: 70px;
+  border: 1px solid greenyellow;
+  color: aliceblue;
+  margin-right: 30px;
+}
+
+hr {
+  color: #252323;
+}
+
+.generate {
+  display: flex;
+  background: #444343;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding: 20px;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  /* border-bottom: 0.1px solid rgb(97, 97, 97); */
+}
+
+.generate button {
+  font-size: 24px;
+  font-weight: 300;
+  width: 34px;
+  border: none;
+  border-radius: 17px;
+  background: rgb(74, 190, 74);
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.generate h1 {
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.generate h1 span {
+  font-size: 24px;
+  color: rgb(31, 197, 16);
+  padding-top: 10px;
+}
+
+.modalBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 30px;
+
+  margin: auto;
+  position: relative;
+  background: #01225e;
+
+  box-shadow: 1px 0.2px 1px 1px #444343;
+  display: hidden;
+}
+
+.modal {
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(1, 155, 1);
+
+  padding: 20px;
+  margin: auto;
+  position: relative;
+  background: green;
+  /* margin-top: 40px; */
+  display: hidden;
+}
+
+.modal h3 {
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.modal h3 img {
+  width: 15px;
+}
+
+.passwordBox {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background: aliceblue;
+  padding: 5px;
+  width: 400px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.passwordBox img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.passwordBox input {
+  background: none;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  color: #666464;
+}
+
+.urlBox {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background: aliceblue;
+  padding: 5px;
+  width: 400px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.urlBox input {
+  background: none;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  color: #666464;
+}
+.urlBox img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.modal button img {
+  width: 24px;
+}
+
+.modal button {
+  border: none;
+  display: flex;
+  align-items: center;
+  color: green;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history h1 {
+  color: #a7a3a3;
+  font-weight: 300;
+  font-size: 30px;
+  border-bottom: 0.1px solid #3a3737;
+  margin-bottom: 10px;
+}
+
+.history .list {
+  color: rgb(30, 219, 30);
+}
+
+.history .list li {
+  padding-bottom: 5px;
+  color: rgb(30, 219, 30);
+  cursor: pointer;
+}
+
+.history {
+  margin: 30px;
+}
