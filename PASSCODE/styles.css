@@ -83,46 +83,30 @@ hr {
 }
 
 .modalBox {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid green;
   border-radius: 5px;
   padding: 30px;
-
+  display: none;
   margin: auto;
   position: relative;
-  background: #01225e;
-
-  box-shadow: 1px 0.2px 1px 1px #444343;
-  display: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 173, 69, 1) 0%,
+    rgba(1, 255, 13, 1) 95%
+  );
 }
 
-.modal {
-  /* width: fit-content; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(1, 155, 1);
-
-  padding: 20px;
-  margin: auto;
-  position: relative;
-  background: green;
-  /* margin-top: 40px; */
-  display: hidden;
-}
-
-.modal h3 {
+.modalBox h3 {
   color: aliceblue;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 15px;
   margin-bottom: 5px;
 }
 
-.modal h3 img {
+.modalBox h3 img {
   width: 15px;
 }
 
@@ -147,7 +131,8 @@ hr {
   border: none;
   padding: 10px;
   outline: none;
-  font-size: 20px;
+  font-size: 15px;
+  width: 90%;
   color: #666464;
 }
 
@@ -167,19 +152,20 @@ hr {
   border: none;
   padding: 10px;
   outline: none;
-  font-size: 20px;
-  color: #666464;
+  font-size: 15px;
+  width: 90%;
+  color: #4e08ff;
 }
 .urlBox img {
   width: 25px;
   cursor: pointer;
 }
 
-.modal button img {
+.modalBox button img {
   width: 24px;
 }
 
-.modal button {
+.modalBox button {
   border: none;
   display: flex;
   align-items: center;
@@ -196,6 +182,7 @@ hr {
   font-size: 30px;
   border-bottom: 0.1px solid #3a3737;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .history .list {

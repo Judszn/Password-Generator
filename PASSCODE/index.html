@@ -12,25 +12,25 @@
       <button>Info</button>
     </div>
     <div class="generate">
-      <button>+</button>
-      <h1>click here to <span>Generate your password</span></h1>
+      <button id="generateButton">+</button>
+      <h1>Generate your <span>password</span></h1>
     </div>
-    <div class="modal">
-      <div class="modalBox">
-        <h3><img src="assets/lightning.png" alt="" />passcode</h3>
-        <div class="passwordBox">
-          <input type="text" placeholder="password" />
-          <img src="assets/copy.png" alt="" />
-        </div>
-        <div class="urlBox">
-          <input type="text" placeholder="link" />
-          <img src="assets/link.png" alt="" />
-        </div>
-        <button>
-          <img src="assets/lightning.png" alt="" />Generate Password
-        </button>
+
+    <div class="modalBox" id="modal">
+      <h3><img src="assets/lightning.png" alt="" />passcode</h3>
+      <div class="passwordBox">
+        <input type="text" id="passwordInput" placeholder="password" />
+        <img src="assets/copy.png" alt="" />
       </div>
+      <div class="urlBox">
+        <input type="text" id="linkInput" placeholder="link" />
+        <img src="assets/link.png" alt="" />
+      </div>
+      <button>
+        <img src="assets/lightning.png" alt="" id="generate" />Generate Password
+      </button>
     </div>
+
     <div class="history">
       <h1>History</h1>
       <div class="list">
@@ -39,5 +39,6 @@
         <li class="list">amazon.login</li>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
