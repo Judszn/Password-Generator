@@ -185,16 +185,35 @@ hr {
   padding-bottom: 10px;
 }
 
-.history .list {
-  color: rgb(30, 219, 30);
+#list {
+  display: flex;
+  flex-direction: column;
 }
 
-.history .list li {
+.list-item {
   padding-bottom: 5px;
   color: rgb(30, 219, 30);
   cursor: pointer;
+  font-size: 20px;
+  border-bottom: 0.1px solid #3a3737;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .history {
   margin: 30px;
+}
+
+#saveButton {
+  background: rgb(41, 3, 255);
+  color: white;
+  border: none;
+  display: none;
+  text-align: center;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
 }
